@@ -13,9 +13,9 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Darius Tehrani - IT Management & Cloud Architektur
+title: dariustehrani.io
 email: web@dariustehrani.io
-description: Darius Tehrani - IT Management, Cloud Architektur, Agile Consulting 
+description: Darius Tehrani - IT Management, Cloud, Agile Consulting 
 baseurl: "" 
 url: "http://dariustehrani.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: datadarius
