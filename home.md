@@ -1,9 +1,10 @@
 ---
 layout: home
-title: Services
-permalink: /
+title: Home
+permalink: /home
 ---
 
+ <h1 class="page-heading">Services</h1>
   <p>Gerne unterstütze ich Sie beim digitalen Wandel mit Agilen Methoden, aktuellem Technologie Know-How sowie Feinsinn für Menschen und Geschäftskultur.
     Mit über 15 Jahre Erfahrung in Telco, Design, Internet, Biotech bei Mittelstand und Enterprise, kenne ich den Bedarf verschiener Industrien.
   </p>
