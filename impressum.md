@@ -1,10 +1,10 @@
 ---
-layout: page
 title: Impressum
-permalink: /impressum/
+layout: page
+permalink: "/impressum/"
 ---
 
-Inhaltlich Verantwortlich
+# Inhaltlich Verantwortlich
 Darius Tehrani
 Am Alten Stellwerk 40
 50733 Köln

@@ -1,43 +1,35 @@
 ---
-layout: home
 title: Services
-permalink: /
+layout: home
+permalink: "/"
 ---
 
-  <p>Gerne unterstütze ich Sie beim digitalen Wandel mit Agilen Methoden, aktuellem Technologie Know-How sowie Feinsinn für Menschen und Geschäftskultur.
-    Mit über 15 Jahre Erfahrung in Telco, Design, Internet, Biotech bei Mittelstand und Enterprise, kenne ich den Bedarf verschiener Industrien.
-  </p>
-    <h2>IT Management Consulting</h2>
-    Strategie Beratung, Konzeption und Management Leistungen in
-    <ul>
-    <li>eBusiness</li>
-    <li>Digitale Kollaboration</li>
-    <li>IT Infrastruktur Operations & Service</li>
-    <li>IT Security & Compliance</li>
-    </ul>
+![profile-pic](/assets/dt-image.jpg)Als Freiberuflicher Berater unterstütze ich Sie beim digitalen Wandel mit Agilen Methoden, aktuellem Technologie Know-How sowie Feinsinn für Menschen und Geschäftskultur.  Mit über 15 Jahre Erfahrung in Telco, Design, Internet, Biotech bei Mittelstand und Enterprise, kenne ich den Bedarf unterschiedlicher Industrien.
+ 
+##  IT Management Consulting
+Strategie Beratung, Konzeption und Management Leistungen in den Bereichen:
+* eBusiness
+* Digitale Kollaboration
+* IT Infrastruktur Operations & Service
+* IT Workplace
+* IT Security & Compliance
 
-    <h2>Cloud Architektur</h2>
-    <ul>
-    <li>Architektur für Private +/ Public Cloud Services</li>
-    <li>Konzeption von Web Plattformen</li>
-    <li>Microservice Architektur</li>
-    <li>Software Defined Data Center</li>
-    </ul>
+## Cloud Architektur
+Konzeption von Web und Infrastrukturdiensten auf Basis von IaaS und PaaS:
+* Architektur für Private +/ Public Cloud Services
+* Konzeption von Web Plattformen
+* Microservice Architektur
+* Software Defined Data Center
 
-    <h2>Agile Methoden & Kultur Kompetenz</h2>
-    <ul>
-    <li>Scrum</li>
-    <li>DevOps</li>
-    <li>Agile Service und Operations Funktionen</li>
-    </ul>
+## Agile Methoden & Kultur Kompetenz
+Die Methoden  der Digitalisierung stellen Sie nicht nur vor technische  Herausforderungen. Agile Methoden, verlangen eine Veränderung der Zusammenarbeit auf allen Ebenen. 
 
-   <h2>Qualifikationen</h2>
-     <ul>
-    <li>Cloud Computing Professional (TÜV)</li>
-    <li>Docker Administration & Operations</li>
-    <li>Professional Scrum Master I (scrum.org)</li>
-    </ul>
+* DevOps
+* Scrum
+* Agile Service und Operations Funktionen
 
-     <h2>Expertise</h2>
-    Mehr als 15 Jahre Erfahrung in verschiedenen Industrien wie Telco, Design, Internet, Biotech bei Mittelstand und Enterprise.
-    <ul></ul>
+## Qualifikationen
+* Cloud Computing Professional (TÜV)
+* Docker Administration & Operations
+* Professional Scrum Master I (scrum.org)
+* ITIL  Foundation V3

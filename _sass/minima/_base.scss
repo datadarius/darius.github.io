@@ -47,6 +47,15 @@ img {
   vertical-align: middle;
 }
 
+img[alt="profile-pic"] { 
+  float: right; 
+  max-width:  180px; 
+  margin-left: auto;
+  padding-left: $spacing-unit;  
+  display: block;
+  @extend %clearfix;
+}
+
 
 
 /**
