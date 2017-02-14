@@ -5,7 +5,6 @@
   border-top: 5px solid $grey-color-dark;
   border-bottom: 1px solid $grey-color-light;
   min-height: 48px;
-
   // Positioning context for the mobile navigation icon
   position: relative;
 }
@@ -163,10 +162,14 @@
  * Page content
  */
 .page-content {
+      background-color: $background-color;
+
   padding: $spacing-unit 0;
 }
 
 .page-heading {
+      background-color: $background-color;
+
   font-size: 20px;
 }
 
@@ -199,18 +202,19 @@
 }
 
 .post-title {
-  font-size: 20px;
+  font-size: 24px;
   font-style: italic;
   letter-spacing: -1px;
-  line-height: 1;
-
+  line-height: 2;
   @include media-query($on-laptop) {
     font-size: 20px;
+  
   }
 }
 
 .post-content {
   margin-bottom: $spacing-unit;
+  
 
   h2 {
     font-size: 32px;

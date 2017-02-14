@@ -22,7 +22,8 @@ Konzeption von Web und Infrastrukturdiensten auf Basis von IaaS und PaaS:
 * Software Defined Data Center
 
 ## Agile Methoden & Kultur Kompetenz
-Die Methoden  der Digitalisierung stellen Sie nicht nur vor technische  Herausforderungen. Agile Methoden, verlangen eine Veränderung der Zusammenarbeit auf allen Ebenen. 
+Die Digitalisierung stellt Sie nicht nur vor technische Herausforderungen. 
+Agile Methoden verlangen eine Veränderung der Zusammenarbeit auf allen Ebenen. Ich helfe Ihnen bei Einführung und Optimierung von:
 
 * DevOps
 * Scrum
@@ -30,6 +31,6 @@ Die Methoden  der Digitalisierung stellen Sie nicht nur vor technische  Herausfo
 
 ## Qualifikationen
 * Cloud Computing Professional (TÜV)
-* Docker Administration & Operations
+* Docker Administration & Operations (AKRA)
 * Professional Scrum Master I (scrum.org)
-* ITIL  Foundation V3
+* ITIL  Foundation V3 (Socos)

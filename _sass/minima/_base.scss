@@ -23,9 +23,15 @@ body {
        -o-font-feature-settings: "kern" 1;
           font-feature-settings: "kern" 1;
   font-kerning: normal;
+      background-image: linear-gradient(-90deg, #A3A3A3, #F5F5F5);
+
+
 }
 
-
+article.post
+  {
+   // background-color: $background-color;
+  }
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
@@ -174,6 +180,7 @@ pre {
   @extend %clearfix;
 
   @include media-query($on-laptop) {
+
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
     max-width:         calc(#{$content-width} - (#{$spacing-unit}));
     padding-right: $spacing-unit / 2;
