@@ -1,0 +1,15 @@
+---
+title: dariustehrani.io
+email: web@dariustehrani.io
+description: IT Management, Cloud Architektur, Agile Zusammenarbeit
+baseurl: ''
+url: http://dariustehrani.io
+github_username: datadarius
+markdown: kramdown
+theme: minima
+gems:
+- jekyll-feed
+exclude:
+- Gemfile
+- Gemfile.lock
+timezone: Europe/Berlin
