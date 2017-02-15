@@ -16,5 +16,6 @@ E-Mail:	dt@dariustehrani.io
 
 # Umsatzsteuer-ID
 
-Umsatzsteuer-Identifikationsnummer gemäß §27 a Umsatzsteuergesetz:
-in Ausstellung
+Umsatzsteuer-Identifikationsnummer  
+gemäß §27 a Umsatzsteuergesetz:  
+beantragt.
