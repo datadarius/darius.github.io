@@ -4,7 +4,6 @@ email: web@dariustehrani.io
 description: IT Management, Cloud Architektur, Agile Zusammenarbeit
 baseurl: ''
 url: http://dariustehrani.io
-twitter_username: datadarius
 github_username: datadarius
 markdown: kramdown
 theme: minima

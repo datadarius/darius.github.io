@@ -1,28 +1,27 @@
 ---
-title: Services
+title: IT Management & Cloud Architektur
 layout: home
 permalink: "/"
+exclude: 'true'
 ---
 
-![profile-pic](/assets/dt-image.jpg)Als Freiberuflicher Berater unterstütze ich Sie beim digitalen Wandel mit Agilen Methoden, aktuellem Technologie Know-How sowie Feinsinn für Menschen und Geschäftskultur.  Mit über 15 Jahre Erfahrung in Telco, Design, Internet, Biotech bei Mittelstand und Enterprise, kenne ich den Bedarf unterschiedlicher Industrien.
+![profile-pic](/assets/dt-image.jpg)Als freiberuflicher Berater unterstütze ich Sie beim digitalen Wandel mit Agilen Methoden, aktuellem Technologie Know-How sowie Feinsinn für Menschen und Geschäftskultur.  Ich verfüge über fast 20 Jahre Erfahrung in Telco, Design, Internet, Biotech bei mittleren und großen Unternehmen.
  
 ##  IT Management Consulting
-Strategie Beratung, Konzeption und Management Leistungen in den Bereichen:
+Strategische Beratungs-, Konzeptions- und Management-Leistungen in den Bereichen:
 * eBusiness
 * Digitale Kollaboration
 * IT Infrastruktur Operations & Service
-* IT Workplace
 * IT Security & Compliance
 
 ## Cloud Architektur
-Konzeption von Web und Infrastrukturdiensten auf Basis von IaaS und PaaS:
+Solution Design für Web und Infrastrukturdienste auf Basis von IaaS und PaaS:
 * Architektur für Private +/ Public Cloud Services
 * Konzeption von Web Plattformen
 * Microservice Architektur
 * Software Defined Data Center
 
 ## Agile Methoden & Kultur Kompetenz
-Die Digitalisierung stellt Sie nicht nur vor technische Herausforderungen. 
 Agile Methoden verlangen eine Veränderung der Zusammenarbeit auf allen Ebenen. Ich helfe Ihnen bei Einführung und Optimierung von:
 
 * DevOps
