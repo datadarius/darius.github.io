@@ -1,11 +1,12 @@
 ---
-title: IT Management & Cloud Architektur
+title: Darius Tehrani - IT Management / Cloud / Agile Consulting
 layout: home
 permalink: "/"
 exclude: 'true'
 ---
 
 ![profile-pic](/assets/dt-image.jpg)Als freiberuflicher Berater unterstütze ich Sie beim digitalen Wandel mit Agilen Methoden, aktuellem Technologie Know-How sowie Feinsinn für Menschen und Geschäftskultur.  Ich verfüge über fast 20 Jahre Erfahrung in Telco, Design, Internet, Biotech bei mittleren und großen Unternehmen.
+
  
 ##  IT Management Consulting
 Strategische Beratungs-, Konzeptions- und Management-Leistungen in den Bereichen:  

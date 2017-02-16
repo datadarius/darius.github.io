@@ -5,20 +5,11 @@
     <h2 class="footer-heading">{{ site.title | escape }}</h2>
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>
-            {% if site.author %}
-              {{ site.author | escape }}
-             {% endif %}
-            </li>
-            {% if site.email %}
-            <li><a href="mailto:{{ site.email }}"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i> Email</a></li>
-            {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
         <ul class="social-media-list">
+          {% if site.email %}
+          <li><a href="mailto:{{ site.email }}"><i class="fa fa-envelope" aria-hidden="true"></i> Email</a></li>
+          {% endif %} 
+       
           {% if site.xing_username %}
           <li>
             {% include icon-xing.html username=site.xing_username %}
@@ -37,12 +28,12 @@
           {% endif %}
         </ul>
       </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description | escape }}</p>
+      <div class="footer-col3">
+        <p>{{ site.description | escape }}
+      </div>
+      <div class="footer-col3">
+      <a href="/impressum">Impressum</p>
       </div>
     </div>
-
   </div>
-
 </footer>

@@ -2,10 +2,10 @@
  * Site header
  */
 .site-header {
-  border-top: 5px solid $grey-color-dark;
+  border-top: 3px solid $grey-color-dark;
+  background-color: xrgba(0,0,0,.8);
   border-bottom: 1px solid $grey-color-light;
   min-height: 48px;
-  background-color: xrgba(0,0,0,.8);
   // Positioning context for the mobile navigation icon
   position: relative;
 }
