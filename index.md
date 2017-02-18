@@ -7,7 +7,7 @@ exclude: 'true'
 
 Ich bin Darius Tehrani aus Köln.
 Ab dem 01.03.2017 bin ich als Freiberuflicher Berater tätig.
-Gerne unterstütze ich Sie bei der Erreichung Ihrer Ziele in IT und Cloud Projekten und freue mich auf Ihre Kontaktaufnahme.
+Gerne unterstütze ich Sie bei der Erreichung Ihrer Ziele in IT und Cloud Projekten und freue mich über Ihre Kontaktaufnahme.
 
 ## IT Strategie
 Strategie-Beratung  und Management-Leistungen in
