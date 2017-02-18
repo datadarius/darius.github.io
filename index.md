@@ -25,4 +25,4 @@ Konzeption & Technische Leitung in Cloud Projekten
 
 
 ## Branchenerfahrung
-Design (5 Jahre), Telko (11 Jahre), Internet (4 Jahre), Biotech  (2 Jahre) bei **mittleren** und **großen** Unternehmen.
+Design (5 Jahre), Telko (11 Jahre), Internet (4 Jahre), Biotech  (2 Jahre) bei **kleinen** wie **großen** Unternehmen.
