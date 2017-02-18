@@ -3,7 +3,6 @@
  */
 .site-header {
   border-top: 3px solid $grey-color-dark;
-  background-color: xrgba(0,0,0,.8);
   border-bottom: 1px solid $grey-color-light;
   min-height: 48px;
   // Positioning context for the mobile navigation icon
@@ -11,7 +10,8 @@
 }
 
 .site-title {
-  font-size: 26px;
+  font-family: $base-font-family-headings;
+  font-size: 20px;
   font-weight: 500;
   line-height: 48px;
   letter-spacing: -1px;
@@ -203,12 +203,12 @@
 }
 
 .post-title {
-  font-size: 28px;
-  font-weight: 500;
+  font-size: 24px;
+  font-weight: 700;
   letter-spacing: -1px;
   line-height: 2;
   @include media-query($on-laptop) {
-    font-size: 20px;
+    font-size: 24px;
   
   }
 }

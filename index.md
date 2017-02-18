@@ -1,39 +1,27 @@
 ---
-title: Darius Tehrani - IT Management / Cloud / Agile Consulting
+title: Darius Tehrani - IT Strategie & Cloud Architektur
 layout: home
 permalink: "/"
 exclude: 'true'
 ---
 
-![profile-pic](/assets/dt-image.jpg)Als freiberuflicher Berater unterstütze ich Sie beim digitalen Wandel mit Agilen Methoden, aktuellem Technologie Know-How sowie Feinsinn für Menschen und Geschäftskultur.  Ich verfüge über fast 20 Jahre Erfahrung in Telco, Design, Internet, Biotech bei mittleren und großen Unternehmen.
+Ich bin Freiberuflicher Berater aus Köln. ![profile-pic](/assets/dt-image.jpg)
 
  
-##  IT Management Consulting
-Strategische Beratungs-, Konzeptions- und Management-Leistungen in den Bereichen:  
-
+## IT Strategie
+Strategie-Beratung  und Managementleistungen in
 * eBusiness
 * Digitale Kollaboration
-* IT Infrastruktur Operations & Service
-* IT Security & Compliance
+* Einführung Agiler Methoden & Tools
+* Aufbau und Optimierung von IT Betrieb &  Services
 
 ## Cloud Architektur
-Solution Design für Web und Infrastrukturdienste auf Basis von IaaS und PaaS:  
-
-* Architektur für Private +/ Public Cloud Services
-* Konzeption von Web Plattformen
+Konzeption & Technische Leitung in Cloud Projekten
+* Architektur für Private +/ Public Cloud Services (IaaS)
+* ganzheitliche Konzeption von Web Plattformen (PaaS)
 * Microservice Architektur
-* Software Defined Data Center
+* DevOps und Continous Delivery
 
-## Agile Methoden & Kultur Kompetenz
-Agile Methoden verlangen eine Veränderung der Zusammenarbeit auf allen Ebenen. Ich helfe Ihnen bei Einführung und Optimierung von:
 
-* DevOps
-* Scrum
-* Agile Service und Operations Funktionen
-
-## Qualifikationen  
-
-* Cloud Computing Professional (TÜV)
-* Docker Administration & Operations (AKRA)
-* Professional Scrum Master I (scrum.org)
-* ITIL  Foundation V3 (Socos)
+## Branchenerfahrung
+Design (5 Jahre), Telko (11 Jahre), Internet (4 Jahre), Biotech  (2 Jahre) bei **mittleren** und **großen** Unternehmen.
