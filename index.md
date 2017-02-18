@@ -10,7 +10,7 @@ Ab dem 01.03.2017 bin ich als Freiberuflicher Berater tätig.
 **Ich freue mich auf Ihre Kontaktaufnahme.**
 
 ## IT Strategie
-Strategie-Beratung  und Managementleistungen in
+Strategie-Beratung  und Management-Leistungen in
 * eBusiness
 * Digitale Kollaboration
 * Einführung Agiler Methoden & Tools
