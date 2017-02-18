@@ -16,3 +16,4 @@ exclude:
 - Gemfile
 - Gemfile.lock
 timezone: Europe/Berlin
+google_analytics: UA-91039215-1
