@@ -7,8 +7,8 @@ exclude: 'true'
 
 Ich bin Darius Tehrani aus Köln. ![profile-pic](/assets/dt-image.jpg)
 Ab dem 01.03.2017 bin ich als Freiberuflicher Berater tätig.
-Ich freue mich auf Ihre Kontaktaufnahme.
- 
+**Ich freue mich auf Ihre Kontaktaufnahme.**
+
 ## IT Strategie
 Strategie-Beratung  und Managementleistungen in
 * eBusiness
