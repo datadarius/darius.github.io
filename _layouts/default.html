@@ -1,19 +1,135 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "de" }}">
 
-  {% include head.html %}
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+  <meta name="keywords" content="{{ site.keywords }}">
+  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu|Osswald" rel="stylesheet">
+  <link rel="stylesheet" href="{{ "/assets/pagepiling/jquery.pagepiling.min.css" | relative_url }}">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
+  <!--{% include google-analytics.html %}-->
+</head>
 
   <body>
 
-    {% include header.html %}
+    <div id="pagepiling">
 
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
+      <div class="section">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <h1>Start</h1>
+            </div>
+          </div>
+        </div>
       </div>
-    </main>
 
-    {% include footer.html %}
+      <div class="section">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <h1>IT-Strategie</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <h1>Cloud-Architektur</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <h1>Branchenerfahrung</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <h1>Technologie Know How</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <h1>Profil</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <h1>Impressum</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <script src="https://use.fontawesome.com/e8f914a8e6.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="{{ "/assets/pagepiling/jquery.pagepiling.min.js" | relative_url }}"></script>
+    <script type="text/javascript">
+                 $(function(){
+                   $('#pagepiling').pagepiling({
+                     menu: '#menu',
+//                     start, it stragie, cloud architektur, branchenerfahrung, technologie know-how, profil
+                     anchors: ['start', 'it-strategie', 'cloud-architektur', 'branchenerfahrung', 'technologie-know-how', 'profil', 'impressum'],
+                     sectionsColor: ['#eee', '#ee005a', '#2C3E50', '#39C', '#ee005a', '#2C3E50', '#39C'],
+                     navigation: {
+                       'position': 'right',
+                       'tooltips': [
+                         'Start',
+                         'IT-Strategie',
+                         'Cloud-Architektur',
+                         'Branchenerfahrung',
+                         'Technologie Know How',
+                         'Profil',
+                         'Impressum'
+                       ]
+                     },
+                     afterRender: function(){
+                       $('#pp-nav').addClass('custom');
+                     },
+                     afterLoad: function(anchorLink, index){
+                       if(index>1){
+                         $('#pp-nav').removeClass('custom');
+                       }else{
+                         $('#pp-nav').addClass('custom');
+                       }
+                     }
+                   });
+                 });
+    </script>
 
   </body>
 
