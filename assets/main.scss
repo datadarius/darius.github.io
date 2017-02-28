@@ -43,4 +43,25 @@ $on-laptop:        800px;
   position: fixed;
   right: 0;
   top: 50%;
+
+  li{
+
+    a{
+      color: $background-color;
+    }
+
+    a:hover,
+    a:focus {
+      background-color: transparent;
+    }
+
+    border-left: 2px solid transparent;
+
+    &.active{
+      border-left: 2px solid $background-color;
+    }
+
+  }
+
+
 }
