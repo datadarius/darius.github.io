@@ -20,9 +20,11 @@
 
   <body>
 
+  <ul id="menu" class="nav nav-stacked"></ul>
+
     <div id="pagepiling">
 
-      <div class="section">
+      <div class="section" data-anchor="start" data-color="#ccc">
         <div class="container">
           <div class="row">
             <div class="col-xs-12">
@@ -32,7 +34,7 @@
         </div>
       </div>
 
-      <div class="section">
+      <div class="section" data-anchor="it-strategie" data-color="#aaa">
         <div class="container">
           <div class="row">
             <div class="col-xs-12">
@@ -42,7 +44,7 @@
         </div>
       </div>
 
-      <div class="section">
+      <div class="section" data-anchor="cloud-architektur" data-color="#bbb">
         <div class="container">
           <div class="row">
             <div class="col-xs-12">
@@ -52,7 +54,7 @@
         </div>
       </div>
 
-      <div class="section">
+      <div class="section" data-anchor="branchenerfahrung" data-color="#ccc">
         <div class="container">
           <div class="row">
             <div class="col-xs-12">
@@ -62,7 +64,7 @@
         </div>
       </div>
 
-      <div class="section">
+      <div class="section" data-anchor="technologie" data-color="#eee">
         <div class="container">
           <div class="row">
             <div class="col-xs-12">
@@ -72,7 +74,7 @@
         </div>
       </div>
 
-      <div class="section">
+      <div class="section" data-anchor="profil" data-color="#aaa">
         <div class="container">
           <div class="row">
             <div class="col-xs-12">
@@ -82,7 +84,7 @@
         </div>
       </div>
 
-      <div class="section">
+      <div class="section" data-anchor="impressum" data-color="#ccc">
         <div class="container">
           <div class="row">
             <div class="col-xs-12">
@@ -92,43 +94,46 @@
         </div>
       </div>
 
-    </div>
 
     <script src="https://use.fontawesome.com/e8f914a8e6.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="{{ "/assets/pagepiling/jquery.pagepiling.min.js" | relative_url }}"></script>
     <script type="text/javascript">
-                 $(function(){
-                   $('#pagepiling').pagepiling({
-                     menu: '#menu',
-//                     start, it stragie, cloud architektur, branchenerfahrung, technologie know-how, profil
-                     anchors: ['start', 'it-strategie', 'cloud-architektur', 'branchenerfahrung', 'technologie-know-how', 'profil', 'impressum'],
-                     sectionsColor: ['#eee', '#ee005a', '#2C3E50', '#39C', '#ee005a', '#2C3E50', '#39C'],
-                     navigation: {
-                       'position': 'right',
-                       'tooltips': [
-                         'Start',
-                         'IT-Strategie',
-                         'Cloud-Architektur',
-                         'Branchenerfahrung',
-                         'Technologie Know How',
-                         'Profil',
-                         'Impressum'
-                       ]
-                     },
-                     afterRender: function(){
-                       $('#pp-nav').addClass('custom');
-                     },
-                     afterLoad: function(anchorLink, index){
-                       if(index>1){
-                         $('#pp-nav').removeClass('custom');
-                       }else{
-                         $('#pp-nav').addClass('custom');
-                       }
-                     }
-                   });
-                 });
+       $(function(){
+
+         var anchors = []
+           , colors = []
+           , menu = $("#menu");
+
+         $(".section").each(function(){
+           anchors.push($(this).data("anchor"));
+           colors.push($(this).data("color"));
+
+           var menuLink = $("<a/>")
+             .attr("href", "#"+$(this).data("anchor"))
+             .text($(this).find("h1").text());
+
+           var menuItem = $("<li/>")
+                            .attr("data-menuanchor",$(this).data("anchor") )
+                            .append(menuLink);
+
+           menuItem.appendTo(menu);
+
+         });
+
+         menu
+           .css("margin-top", "-" + menu.height() / 2 + "px")
+           .find("li").first().addClass("active");
+
+
+         $('#pagepiling').pagepiling({
+           anchors: anchors,
+           sectionsColor: colors,
+           navigation : false,
+           menu: "#menu"
+         });
+       });
     </script>
 
   </body>

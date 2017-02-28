@@ -37,3 +37,10 @@ $on-laptop:        800px;
 
 // Import partials from the `minima` theme.
 //@import "minima";
+
+#menu{
+  z-index: 70;
+  position: fixed;
+  right: 0;
+  top: 50%;
+}
