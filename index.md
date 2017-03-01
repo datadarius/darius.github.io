@@ -1,4 +1,5 @@
 ---
+<<<<<<< Updated upstream
 title: Darius Tehrani - IT Strategie & Cloud Architektur
 layout: home
 permalink: "/"
@@ -26,3 +27,22 @@ Konzeption & Technische Leitung in Cloud Projekten
 
 ## Branchenerfahrung
 Design (5 Jahre), Telko (11 Jahre), Internet (4 Jahre), Biotech  (2 Jahre) bei kleinen Unternehmen wie großen Konzernen.
+=======
+title: IT Management & Cloud Architektur
+layout: default
+permalink: "/"
+exclude: 'true'
+sections:
+  
+  - menu_title: "IT Management"
+    color: "#ABA"
+    content: "it-management.md"
+    anchor: "it-management"
+    
+  - menu_title: "Cloud Architektur"
+    color: "#CDC"
+    content: "cloud-architektur.md"
+    anchor: "cloud-architektur"
+  
+---
+>>>>>>> Stashed changes

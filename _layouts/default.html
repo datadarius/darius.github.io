@@ -14,7 +14,6 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
   <!--{% include google-analytics.html %}-->
 </head>
 
@@ -24,76 +23,24 @@
 
     <div id="pagepiling">
 
-      <div class="section" data-anchor="start" data-color="#6699cc">
-        <div class="container">
-          <div class="row">
-            <div class="col-xs-12">
-              <h1>Start</h1>
+      {% for section in page.sections %}
+        <div
+            class="section"
+            data-anchor="{{ section.anchor }}"
+            data-color="{{ section.color }}"
+            data-menu-title="{{ section.menu_title }}">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12">
+                {% capture section_content %}{% include content/{{ section.content}} %}{% endcapture %}
+                {{ section_content | markdownify }}
+              </div>
             </div>
           </div>
         </div>
-      </div>
+      {% endfor %}
 
-      <div class="section" data-anchor="it-strategie" data-color="#fff275">
-        <div class="container">
-          <div class="row">
-            <div class="col-xs-12">
-              <h1>IT-Strategie</h1>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="section" data-anchor="cloud-architektur" data-color="#ff8c42">
-        <div class="container">
-          <div class="row">
-            <div class="col-xs-12">
-              <h1>Cloud-Architektur</h1>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="section" data-anchor="branchenerfahrung" data-color="#ff3c38">
-        <div class="container">
-          <div class="row">
-            <div class="col-xs-12">
-              <h1>Branchenerfahrung</h1>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="section" data-anchor="technologie" data-color="#a23e48">
-        <div class="container">
-          <div class="row">
-            <div class="col-xs-12">
-              <h1>Technologie Know How</h1>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="section" data-anchor="profil" data-color="#6699cc">
-        <div class="container">
-          <div class="row">
-            <div class="col-xs-12">
-              <h1>Profil</h1>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="section" data-anchor="impressum" data-color="#fff275">
-        <div class="container">
-          <div class="row">
-            <div class="col-xs-12">
-              <h1>Impressum</h1>
-            </div>
-          </div>
-        </div>
-      </div>
-
+    </div>
 
     <script src="https://use.fontawesome.com/e8f914a8e6.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
@@ -112,7 +59,7 @@
 
            var menuLink = $("<a/>")
              .attr("href", "#"+$(this).data("anchor"))
-             .text($(this).find("h1").text());
+             .text($(this).data("menu-title"));
 
            var menuItem = $("<li/>")
                             .attr("data-menuanchor",$(this).data("anchor") )
