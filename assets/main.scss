@@ -41,8 +41,8 @@ $on-laptop:        800px;
 #menu{
   z-index: 70;
   position: fixed;
-  right: 0;
-  top: 50%;
+  left: 20px;
+  top: 20px;
 
   li{
 
@@ -50,18 +50,24 @@ $on-laptop:        800px;
       color: $background-color;
     }
 
-    a:hover,
-    a:focus {
-      background-color: transparent;
-    }
-
-    border-left: 2px solid transparent;
-
-    &.active{
-      border-left: 2px solid $background-color;
-    }
-
   }
 
+}
+
+footer{
+  position: fixed;
+  z-index: 70;
+  bottom: 0;
+  width: 100%;
+
+  ul.social-media-list{
+    li{
+      display: inline-block;
+      a{
+        color:#000;
+        margin-right: 5px;
+      }
+    }
+  }
 
 }

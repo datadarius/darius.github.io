@@ -1,15 +1,13 @@
 <footer class="site-footer">
 
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
         <ul class="social-media-list">
           {% if site.email %}
           <li><a href="mailto:{{ site.email }}"><i class="fa fa-envelope" aria-hidden="true"></i> Email</a></li>
-          {% endif %} 
-       
+          {% endif %}
+
           {% if site.xing_username %}
           <li>
             {% include icon-xing.html username=site.xing_username %}
@@ -28,12 +26,17 @@
           {% endif %}
         </ul>
       </div>
-      <div class="footer-col3">
-        <p>{{ site.description | escape }}
+      <div class="col-md-4">
+        <p>
+          {{ site.description | escape }}
+        </p>
       </div>
-      <div class="footer-col3">
-      <a href="/impressum">Impressum</p>
+      <div class="col-md-4">
+          <p class="pull-right">
+            <a href="#impressum">Impressum</a>
+          </p>
       </div>
     </div>
   </div>
+
 </footer>

@@ -9,7 +9,6 @@ github_username: datadarius
 xing_username: Darius_Tehrani
 linkedin_username: dtehrani
 markdown: kramdown
-theme: minima
 gems:
 - jekyll-feed
 exclude:

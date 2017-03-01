@@ -8,9 +8,9 @@
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
   <meta name="keywords" content="{{ site.keywords }}">
-  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
   <link href="https://fonts.googleapis.com/css?family=Ubuntu|Osswald" rel="stylesheet">
-  <link rel="stylesheet" href="{{ "/assets/pagepiling/jquery.pagepiling.min.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/pagepiling/jquery.pagepiling.min.css' | relative_url }}">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
@@ -19,7 +19,7 @@
 
   <body>
 
-  <ul id="menu" class="nav nav-stacked"></ul>
+    <ul id="menu" class="nav nav-pills"></ul>
 
     <div id="pagepiling">
 
@@ -42,20 +42,28 @@
 
     </div>
 
+    {% include footer.html %}
+
     <script src="https://use.fontawesome.com/e8f914a8e6.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script src="{{ "/assets/pagepiling/jquery.pagepiling.min.js" | relative_url }}"></script>
+    <script src="{{ '/assets/pagepiling/jquery.pagepiling.min.js' | relative_url }}"></script>
     <script type="text/javascript">
        $(function(){
 
          var anchors = []
            , colors = []
-           , menu = $("#menu");
+           , menu = $("#menu")
+           , sections = $(".section");
 
-         $(".section").each(function(){
+         sections.each(function(index){
+
            anchors.push($(this).data("anchor"));
            colors.push($(this).data("color"));
+
+           if( index + 1 ===  sections.length){
+             return false;
+           }
 
            var menuLink = $("<a/>")
              .attr("href", "#"+$(this).data("anchor"))
@@ -70,7 +78,6 @@
          });
 
          menu
-           .css("margin-top", "-" + menu.height() / 2 + "px")
            .find("li").first().addClass("active");
 
 
