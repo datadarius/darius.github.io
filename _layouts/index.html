@@ -1,0 +1,69 @@
+---
+layout: default
+---
+<ul id="menu" class="nav nav-pills"></ul>
+
+<div id="pagepiling">
+
+  {% for section in page.sections %}
+  <div
+      class="section"
+      data-anchor="{{ section.anchor }}"
+      data-color="{{ section.color }}"
+      data-menu-title="{{ section.menu_title }}">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          {% capture section_content %}{% include content/{{ section.content}} %}{% endcapture %}
+          {{ section_content | markdownify }}
+        </div>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+
+</div>
+
+{% include footer.html %}
+
+<script src="https://use.fontawesome.com/e8f914a8e6.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="{{ '/assets/pagepiling/jquery.pagepiling.min.js' | relative_url }}"></script>
+<script type="text/javascript">
+  $(function(){
+
+    var anchors = []
+      , colors = []
+      , menu = $("#menu")
+      , sections = $(".section");
+
+    sections.each(function(index){
+
+      anchors.push($(this).data("anchor"));
+      colors.push($(this).data("color"));
+
+      var menuLink = $("<a/>")
+        .attr("href", "#"+$(this).data("anchor"))
+        .text($(this).data("menu-title"));
+
+      var menuItem = $("<li/>")
+        .attr("data-menuanchor",$(this).data("anchor") )
+        .append(menuLink);
+
+      menuItem.appendTo(menu);
+
+    });
+
+    menu
+      .find("li").first().addClass("active");
+
+
+    $('#pagepiling').pagepiling({
+      anchors: anchors,
+      sectionsColor: colors,
+      navigation : false,
+      menu: "#menu"
+    });
+  });
+</script>

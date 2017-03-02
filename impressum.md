@@ -1,3 +1,9 @@
+---
+title: IT Management & Cloud Architektur
+layout: imprint
+permalink: "/impressum"
+exclude: 'true'
+---
 # Angaben gemäß § 5 TMG
 Darius Tehrani  
 IT Strategie & Cloud Architektur Beratung

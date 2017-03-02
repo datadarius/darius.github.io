@@ -49,8 +49,6 @@ $on-laptop:        800px;
       font-family: $base-font-family-headings;
       color: $background-color;
       text-transform: lowercase;
-      font-weight: 800;
-
     }
 
   }
@@ -89,7 +87,14 @@ body{
   font-family: $base-font-family;
   color: $text-color;
   font-size: $base-font-size;
+
+
+  &.impressum{
+    background-color: $brand-color;
+  }
+
 }
+
 
 ul#menu, footer{
   font-size: 14px;

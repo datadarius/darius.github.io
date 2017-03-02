@@ -1,6 +1,6 @@
 ---
 title: IT Management & Cloud Architektur
-layout: default
+layout: index
 permalink: "/"
 exclude: 'true'
 sections:
@@ -26,12 +26,5 @@ sections:
     color: "#131425"
     content: "qualifikationen.md"
     anchor: "qualifikationen"
-  
-  #last item won't appear in top menu
-  
-  - menu_title: "Impressum"
-    color: "#AAA"
-    content: "impressum.md"
-    anchor: "impressum"
   
 ---
