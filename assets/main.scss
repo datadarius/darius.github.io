@@ -4,15 +4,17 @@
 @charset "utf-8";
 
 // Our variables
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-family-headings: "Ubuntu, sans-serif";
+$base-font-family: "Osswald";
+
 $base-font-size:   16px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
+$text-color: #fdfdfd;
 
-$spacing-unit:     30px;
 
-$text-color:       #111;
+
 $background-color: #fdfdfd;
 $brand-color:      #2a7ae2;
 
@@ -47,7 +49,11 @@ $on-laptop:        800px;
   li{
 
     a{
+      font-family: $base-font-family-headings;
       color: $background-color;
+      text-transform: lowercase;
+      font-weight: 800;
+
     }
 
   }
@@ -64,10 +70,33 @@ footer{
     li{
       display: inline-block;
       a{
-        color:#000;
+        color:#FDFDFD;
         margin-right: 5px;
       }
     }
   }
 
 }
+
+
+//Headlines
+
+h1, h2, h3, h4, h5, h6 {
+   font-family: $base-font-family-headings;
+   font-weight: 700;
+   text-transform: lowercase;
+   color: $text-color;
+}
+
+p {
+   font-family: $base-font-family;
+   font-weight: 500;
+   color: $text-color;
+}
+
+li {
+   font-family: $base-font-family;
+   font-weight: 500;
+   color: $text-color;
+}
+

@@ -8,16 +8,24 @@ sections:
   #pagepiling sections
   
   - menu_title: "IT Management"
-    color: "#ABA"
+    color: "#1A263E"
     content: "it-management.md"
     anchor: "it-management"
-  
     
   - menu_title: "Cloud Architektur"
-    color: "#CDC"
+    color: "#32465B"
     content: "cloud-architektur.md"
     anchor: "cloud-architektur"
   
+  - menu_title: "Agile Methoden"
+    color: "#182D41"
+    content: "agile-methoden.md"
+    anchor: "agile-methoden"
+  
+  - menu_title: "Qualifikationen"
+    color: "#131425"
+    content: "qualifikationen.md"
+    anchor: "qualifikationen"
   
   #last item won't appear in top menu
   
