@@ -1,4 +1,5 @@
-## Cloud Architektur
+
+## <i class="fa fa-cloud" aria-hidden="true"></i> Cloud Architektur
 Solution Design für Web und Infrastrukturdienste auf Basis von IaaS und PaaS:
 * Architektur für Private +/ Public Cloud Services
 * Konzeption von Web Plattformen
