@@ -6,7 +6,12 @@ exclude: 'true'
 sections:
   
   #pagepiling sections
-  
+
+  - menu_title: "Intro"
+    color: "#1A263E"
+    content: "intro.md"
+    anchor: "intro"
+
   - menu_title: "IT Management"
     color: "#1A263E"
     content: "it-management.md"
