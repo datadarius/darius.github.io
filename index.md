@@ -1,5 +1,5 @@
 ---
-title: IT Management & Cloud Architektur
+title: dariustehrani.io - IT Management & Cloud Architektur
 layout: index
 permalink: "/"
 exclude: 'true'
@@ -8,7 +8,7 @@ sections:
   #pagepiling sections
 
   - menu_title: "Intro"
-    color: "#1A263E"
+    color: "#182D41"
     content: "intro.md"
     anchor: "intro"
 
@@ -23,13 +23,13 @@ sections:
     anchor: "cloud-architektur"
   
   - menu_title: "Agile Methoden"
-    color: "#182D41"
+    color: "#1A263E"
     content: "agile-methoden.md"
     anchor: "agile-methoden"
   
-  - menu_title: "Qualifikationen"
-    color: "#131425"
-    content: "qualifikationen.md"
-    anchor: "qualifikationen"
+  - menu_title: "Kontakt"
+    color: "#182D41"
+    content: "kontakt.md"
+    anchor: "kontakt"
   
 ---

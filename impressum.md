@@ -1,12 +1,12 @@
 ---
-title: IT Management & Cloud Architektur
+title: dariustehrani.io - Impressum
 layout: imprint
 permalink: "/impressum"
 exclude: 'true'
 ---
 # Angaben gemäß § 5 TMG
-Darius Tehrani  
-IT Strategie & Cloud Architektur Beratung
+Darius Tehrani
+Freiberuflicher IT Berater
 
 Am Alten Stellwerk 40  
 50733 Köln  
