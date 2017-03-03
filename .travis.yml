@@ -5,11 +5,12 @@ rvm:
 before_script:
   - gem install jekyll
   - bundle install
+  - bundle exec jekyll build
 
-script: ./script/cibuild
+script: bundle exec htmlproofer ./_site
 
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 
-sudo: false # ro
+sudo: false
