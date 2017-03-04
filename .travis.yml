@@ -6,10 +6,6 @@ before_install:
   - gem update --system
   - gem --version
 
-before_script:
-  - gem install jekyll
-  - bundle install
-
 script: bundle exec jekyll build
 
 env:
