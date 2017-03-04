@@ -1,6 +1,8 @@
 ## <i class="fa fa-compass" aria-hidden="true"></i> IT Management Consulting
-Strategische Beratungs-, Konzeptions- und Management-Leistungen in den Bereichen:  
+Strategische Beratung, Konzeption und Management Leistungen in:  
 * eBusiness
 * Digitale Kollaboration
-* IT Infrastruktur Operations & Service
+* IT Infrastruktur 
+* Future Workplace
+* IT Operations & Service
 * IT Security & Compliance

@@ -1,7 +1,9 @@
 
 ## <i class="fa fa-cloud" aria-hidden="true"></i> Cloud Architektur
-Solution Design für Web und Infrastrukturdienste auf Basis von IaaS und PaaS:
-* Architektur für Private +/ Public Cloud Services
-* Konzeption von Web Plattformen
-* Microservice Architektur
-* Software Defined Data Center
+IT Konzeption für digitale Geschäftsprozesse, Design von Cloud Anwendungen und Plattformen.
+* Architektur für Private und Public Cloud Dienste.
+* Konzeption von Web Plattformen.
+* Microservice Architektur.
+* Container Technologie und Plattformen.
+* Software Defined Data Center.
+* Klassische Datacenter Virtualisierung.

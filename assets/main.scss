@@ -5,8 +5,8 @@
 
 // Our variables
 $base-font-family-headings: Ubuntu, sans-serif;
-$base-font-family: Oswald;
-$base-font-size:   36px;
+$base-font-family: 'Oswald';
+$base-font-size:   28px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
@@ -49,6 +49,7 @@ $on-laptop:        800px;
       font-family: $base-font-family-headings;
       color: $background-color;
       text-transform: lowercase;
+      font-weight: 700;
     }
 
   }
@@ -60,19 +61,6 @@ footer{
   z-index: 70;
   bottom: 0;
   width: 100%;
-
-  ul.social-media-list{
-
-    padding: 0;
-
-    li{
-      display: inline-block;
-      a{
-        color:#FDFDFD;
-        margin-right: 5px;
-      }
-    }
-  }
 
 }
 
@@ -101,5 +89,8 @@ body{
 
 ul#menu, footer{
   font-size: 14px;
+  font-family: $base-font-family-headings;
+  text-transform: lowercase;
+  color: $text-color;
 }
 
