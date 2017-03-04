@@ -2,7 +2,10 @@ language: ruby
 rvm:
 - 2.0.0
 
-before_install: gem install bundler --version '1.14.5'
+install:
+  - gem uninstall bundler
+  - gem install bundler --version '1.14.5'
+  - bundle install
 
 script: bundle exec jekyll build
 
