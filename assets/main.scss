@@ -73,7 +73,9 @@ footer{
   z-index: 70;
   bottom: 0;
   width: 100%;
-
+  .container-fluid{
+    padding: 0 35px;
+  }
 }
 
 
@@ -126,5 +128,9 @@ ul#menu, footer{
   font-family: $base-font-family-headings;
   text-transform: lowercase;
   color: $text-color;
+}
+
+.pp-tableCell{
+  padding: 100px 0;
 }
 
