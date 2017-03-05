@@ -1,5 +1,5 @@
 ## <i class="fa fa-heartbeat" aria-hidden="true"></i> Intro
-Ich bin Darius Tehrani, Freiberuflicher IT Berater aus Köln.
+Ich bin Darius Tehrani, freiberuflicher IT Berater aus Köln.
 
 Mein Herz schlägt für agile Unternehmenskultur und moderne Cloud Technologie.
 
