@@ -5,8 +5,8 @@
 
 // Our variables
 $base-font-family-headings: Ubuntu, sans-serif;
-$base-font-family: 'Oswald';
-$base-font-size:   28px;
+$base-font-family: Oswald, sans-serif;
+$base-font-size:   24px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
@@ -81,7 +81,8 @@ body{
 
 
   &.impressum{
-    background-color: $brand-color;
+    background-color: #32465B;
+    overflow: scroll;
   }
 
 }
