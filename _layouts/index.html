@@ -48,8 +48,7 @@ layout: default
     var anchors = []
       , colors = []
       , menu = $("#menu")
-      , sections = $(".section")
-      , navigation = $(window).width() <= 768 ? {} : false;
+      , sections = $(".section");
 
     sections.each(function(index){
 
@@ -73,8 +72,10 @@ layout: default
     $('#pagepiling').pagepiling({
       anchors: anchors,
       sectionsColor: colors,
-      navigation: navigation,
       menu: "#menu"
     });
+
+    $("#pp-nav").addClass("visible-xs");
+
   });
 </script>
