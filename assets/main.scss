@@ -133,7 +133,23 @@ ul#menu, footer{
   color: $text-color;
 }
 
-.pp-tableCell{
-  padding: 100px 0;
+#pp-nav{
+  width: 100%;
+  text-align: center;
+  top:0 !important;
+  margin: 0 !important;
+  right: auto !important;
+  li{
+
+    display: inline-block !important;
+
+    span{
+      border-color: $background-color !important;
+    }
+
+    .active span{
+      background: $background-color !important;
+    }
+  }
 }
 
