@@ -11,6 +11,8 @@ Darius Tehrani
 
 Darius Tehrani - IT Beratung
 
+Freiberuflicher Einzelunternehmer
+
 Am Alten Stellwerk 40
 
 50733 Köln
