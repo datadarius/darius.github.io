@@ -133,14 +133,23 @@ ul#menu, footer{
   color: $text-color;
 }
 
-#pp-nav li{
+#pp-nav{
+  width: 100%;
+  text-align: center;
+  top:0 !important;
+  margin: 0 !important;
+  right: auto !important;
+  li{
 
-  span{
-    border-color: $background-color !important;
-  }
+    display: inline-block !important;
 
-  .active span{
-    background: $background-color !important;
+    span{
+      border-color: $background-color !important;
+    }
+
+    .active span{
+      background: $background-color !important;
+    }
   }
 }
 
