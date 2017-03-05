@@ -22,10 +22,10 @@ sections:
     content: "cloud-architektur.md"
     anchor: "cloud-architektur"
   
-  - menu_title: "Agile Methoden"
+  - menu_title: "Kollaboration"
     color: "#1A263E"
-    content: "agile-methoden.md"
-    anchor: "agile-methoden"
+    content: "kollaboration.md"
+    anchor: "kollaboration"
   
   - menu_title: "Kontakt"
     color: "#182D41"
