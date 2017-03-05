@@ -5,6 +5,6 @@ Ich bin Darius Tehrani, freiberuflicher IT Berater aus Köln.
 
 In 19 Jahren in der IT, habe ich stets lernen und spannende Projekte begleiten dürfen.
 
-Branchenerfahrung in Design, Telko, Internet und Biotech bei kleinen Unternehmen wie großen Konzernen. 
+Branchenerfahrung in Design, Telko, Internet und Biotech bei kleinen Unternehmen wie großen Konzernen gesammelt. 
 
 Gerne unterstütze ich Sie bei der Erreichung Ihrer IT Ziele.
