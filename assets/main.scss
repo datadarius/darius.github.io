@@ -134,6 +134,17 @@ ul#menu, footer{
 }
 
 .pp-tableCell{
-  padding: 100px 0;
+  padding: 0 30px 0 0;
+}
+
+#pp-nav li{
+
+  span{
+    border-color: $background-color !important;
+  }
+
+  .active span{
+    background: $background-color !important;
+  }
 }
 

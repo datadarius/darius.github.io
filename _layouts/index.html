@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<ul id="menu" class="nav nav-pills"></ul>
+<ul id="menu" class="nav nav-pills hidden-xs"></ul>
 
 <div id="pagepiling">
 
@@ -20,7 +20,7 @@ layout: default
           <div class="col-xs-12 col-sm-8 col-md-9">
             {{ section_content | markdownify }}
           </div>
-          <div class="col-xs-12 col-sm-4 col-md-3">
+          <div class="hidden-xs col-sm-4 col-md-3">
             <img src="/darius-tehrani-web.png" alt="Darius Tehrani" class="img-responsive img-thumbnail">
           </div>
         {% else %}
@@ -48,7 +48,8 @@ layout: default
     var anchors = []
       , colors = []
       , menu = $("#menu")
-      , sections = $(".section");
+      , sections = $(".section")
+      , navigation = $(window).width() <= 768 ? {} : false;
 
     sections.each(function(index){
 
@@ -67,14 +68,12 @@ layout: default
 
     });
 
-    menu
-      .find("li").first().addClass("active");
-
+    menu.find("li").first().addClass("active");
 
     $('#pagepiling').pagepiling({
       anchors: anchors,
       sectionsColor: colors,
-      navigation : false,
+      navigation: navigation,
       menu: "#menu"
     });
   });
