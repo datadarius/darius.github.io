@@ -6,6 +6,8 @@ layout: default
 <div id="pagepiling">
 
   {% for section in page.sections %}
+  {% capture section_content %}{% include content/{{ section.content}} %}{% endcapture %}
+
   <div
       class="section"
       data-anchor="{{ section.anchor }}"
@@ -13,10 +15,20 @@ layout: default
       data-menu-title="{{ section.menu_title }}">
     <div class="container">
       <div class="row">
-        <div class="col-xs-12">
-          {% capture section_content %}{% include content/{{ section.content}} %}{% endcapture %}
-          {{ section_content | markdownify }}
-        </div>
+
+        {% if forloop.first %}
+          <div class="col-xs-9">
+            {{ section_content | markdownify }}
+          </div>
+          <div class="col-xs-3">
+            <img src="/darius-tehrani-web.png" alt="Darius Tehrani" class="img-responsive img-thumbnail">
+          </div>
+        {% else %}
+          <div class="col-xs-12">
+            {{ section_content | markdownify }}
+          </div>
+        {% endif %}
+
       </div>
     </div>
   </div>
