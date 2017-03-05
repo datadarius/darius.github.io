@@ -3,7 +3,7 @@ Sollten Sie sich für ein Kennenlernen interessieren, so kontaktieren Sie mich g
 
 Weitere Informationen stelle ich auf Nachfrage gerne zur Verfügung.
 
-<a href="mailto:{{ site.email }}"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
-<a href="https://linkedin.com/in/{{ site.linkedin_username }}"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
 <a href="https://xing.com/profile/{{ site.xing_username }}"><i class="fa fa-xing-square fa-2x" aria-hidden="true"></i></a>
+<a href="https://linkedin.com/in/{{ site.linkedin_username }}"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
 <a href="https://github.com/{{ site.github_username }}"><i class="fa fa-github-square fa-2x" aria-hidden="true"></i> </a> 
+<a href="mailto:{{ site.email }}"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
