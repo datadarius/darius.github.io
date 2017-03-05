@@ -8,4 +8,4 @@ IT Konzeption für digitale Geschäftsprozesse:
 * Microservice Architektur
 * Container Technologie
 * Software Defined Data Center
-* Klassische Datacenter Virtualisierung
+* Klassische Data Center Virtualisierung
