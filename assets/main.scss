@@ -13,7 +13,7 @@ $base-line-height: 1.5;
 $text-color: #fdfdfd;
 
 $background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$brand-color:      #337ab7;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -86,6 +86,14 @@ h1, h2, h3, h4, h5, h6 {
    color: $text-color;
 }
 
+a{
+  color: #fff;
+  &:hover{
+    color: $brand-color;
+    text-decoration: none;
+  }
+}
+
 body{
   font-family: $base-font-family;
   color: $text-color;
@@ -102,6 +110,13 @@ body{
 .section[data-anchor="intro"]{
   img{
     margin-top: 70px;
+  }
+}
+
+.section[data-anchor="kontakt"]{
+  a{
+    display: inline-block;
+    margin: 10px 50px 10px 0;
   }
 }
 
