@@ -1,4 +1,4 @@
-## <i class="fa fa-handshake-o" aria-hidden="true"></i> Zusammen Arbeiten
+## <i class="fa fa-handshake-o" aria-hidden="true"></i> Zusammenarbeiten
 Kontaktieren Sie mich gerne für ein persönliches Kennenlernen.
 
 <a href="https://xing.com/profile/{{ site.xing_username }}"><i class="fa fa-xing-square fa-2x" aria-hidden="true"></i></a>

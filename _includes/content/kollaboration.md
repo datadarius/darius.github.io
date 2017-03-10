@@ -6,4 +6,4 @@ Ich helfe Ihnen bei Einführung und Optimierung von:
 * Scrum und DevOps
 * Product Vision und -Requirements
 * Atlassian Tools
-* Nutzungserlebnis von IT Portfolio und Services
+* Nutzungserlebnis von IT-Portfolio und -Services
