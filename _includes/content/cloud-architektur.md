@@ -4,7 +4,7 @@ IT Konzeption für digitale Geschäftsprozesse:
 
 
 * Architektur für private und öffentliche Cloud Dienste
-* Ganzheitliche Konzeption von Web Anwendungen
+* Ganzheitliche Konzeption von Web-Anwendungen
 * Microservices-Architektur
 * Container-Technologie
 * Software Defined Data Center
