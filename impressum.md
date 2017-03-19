@@ -9,7 +9,7 @@ Angaben gemäß § 5 TMG:
 
 Darius Tehrani
 
-Darius Tehrani - IT Beratung
+IT-Beratung
 
 Freiberuflicher Einzelunternehmer
 
