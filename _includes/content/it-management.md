@@ -1,4 +1,4 @@
-## <i class="fa fa-compass" aria-hidden="true"></i> IT Management Consulting
+## <i class="fa fa-compass" aria-hidden="true"></i> IT-Management Consulting
 Strategische Beratung, Konzeption und Managementkompetenz in:  
 * eBusiness
 * Digitale Kollaboration
