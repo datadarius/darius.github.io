@@ -1,6 +1,6 @@
 
 ## <i class="fa fa-cloud" aria-hidden="true"></i> Cloud Architektur
-IT Konzeption für digitale Geschäftsprozesse:
+IT-Konzeption für digitale Geschäftsprozesse:
 
 
 * Architektur für private und öffentliche Cloud Dienste

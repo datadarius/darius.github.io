@@ -4,5 +4,5 @@ Strategische Beratung, Konzeption und Managementkompetenz in:
 * Digitale Kollaboration
 * IT-Infrastruktur 
 * Future Workplace
-* IT Operations & Service
-* IT Security & Compliance
+* IT-Operations & -Service
+* IT-Security & -Compliance

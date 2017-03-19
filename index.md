@@ -12,7 +12,7 @@ sections:
     content: "intro.md"
     anchor: "intro"
 
-  - menu_title: "IT Management"
+  - menu_title: "IT-Management"
     color: "#1A263E"
     content: "it-management.md"
     anchor: "it-management"

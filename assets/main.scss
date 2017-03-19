@@ -6,9 +6,9 @@
 // Our variables
 $base-font-family-headings: Ubuntu, sans-serif;
 $base-font-family: Roboto, sans-serif;
-$base-font-size:   20px;
+$base-font-size:   1.600em;
 $base-font-weight: 500;
-$small-font-size:  $base-font-size * 0.875;
+$small-font-size:  $base-font-size * 0.565;
 $base-line-height: 1.2;
 $text-color: #fdfdfd;
 
@@ -25,17 +25,6 @@ $content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
-// Minima also includes a mixin for defining media queries.
-// Use media queries like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
-
-// Import partials from the `minima` theme.
-//@import "minima";
 
 #menu{
   z-index: 70;
@@ -74,10 +63,11 @@ footer{
   bottom: 0;
   width: 100%;
   .container-fluid{
-    padding: 0 35px;
+    padding: 0 18px;
   }
   h5{
     padding-top: 18px;
+    font-size: $small-font-size;
   }
 }
 
@@ -107,6 +97,8 @@ body{
 
   &.impressum{
     background-color: #32465B;
+    font-size: $base-font-size;
+
     overflow: scroll;
   }
 
@@ -127,7 +119,7 @@ body{
 
 
 ul#menu, footer{
-  font-size: 14px;
+  font-size: $small-font-size;
   font-family: $base-font-family-headings;
   text-transform: lowercase;
   color: $text-color;
