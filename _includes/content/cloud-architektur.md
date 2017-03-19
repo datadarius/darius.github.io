@@ -6,4 +6,4 @@ Ganzheitliche Konzeption für Cloud-Dienste und -Anwendungen:
 * Konzeption von Web-Anwendungen
 * Einführung von Microservices und Container-Technologie
 * Solution-Design für IaaS und PaaS
-* Cloud-Transition bestehender Anwendungen und Dienste
+* Cloud-Transition
