@@ -6,4 +6,4 @@ Ich helfe Ihnen bei Einführung und Optimierung von:
 * Scrum und DevOps
 * Product Vision und -Requirements
 * Atlassian Tools
-* Abstimmung von gemeinsamen Frameworks und Standards
+* Frameworks und Standards
