@@ -1,8 +1,8 @@
 ## <i class="fa fa-compass" aria-hidden="true"></i> IT-Management Consulting
 Strategische Beratung, Konzeption und Managementkompetenz in:  
-* eBusiness
 * Digitale Kollaboration
-* IT-Infrastruktur 
+* IT-Innovation
 * Future Workplace
-* IT-Operations & -Service
-* IT-Security & -Compliance
+* IT-Infrastruktur und -Betrieb 
+* Nutzungerlebnis von IT-Service und -Portfolio
+* Vendor- & Technologie-Management

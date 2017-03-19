@@ -1,5 +1,5 @@
 ---
-title: dariustehrani.io - IT Management & Cloud Architektur
+title: dariustehrani.io - IT-Management & Cloud-Architektur
 layout: index
 permalink: "/"
 exclude: 'true'
@@ -17,7 +17,7 @@ sections:
     content: "it-management.md"
     anchor: "it-management"
     
-  - menu_title: "Cloud Architektur"
+  - menu_title: "Cloud-Architektur"
     color: "#32465B"
     content: "cloud-architektur.md"
     anchor: "cloud-architektur"
