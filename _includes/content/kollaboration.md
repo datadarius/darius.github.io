@@ -4,6 +4,7 @@ Digitale Kollaboration erfordert nachvollziehbare Ziele, transparente Abläufe u
 Ich helfe Ihnen bei Einführung und Optimierung von:
 
 * Scrum und DevOps
+* Continuous Delivery
 * Product Vision und -Requirements
-* Atlassian Tools
 * Frameworks und Standards
+* Atlassian Tools
