@@ -5,5 +5,5 @@ Strategische Beratung, Konzeption und Managementkompetenz in:
 * IT-Innovation
 * Future Workplace
 * IT-Infrastruktur und -Betrieb 
-* Nutzungerlebnis von IT-Service und -Portfolio
+* Nutzungserlebnis von IT-Service und -Portfolio
 * Vendor- & Technologie-Management
