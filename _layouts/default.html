@@ -21,6 +21,32 @@
   <meta name="theme-color" content="#ffffff"> 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   {% include google-analytics.html %}
+
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+  <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+  <script>
+  window.addEventListener("load", function(){
+  window.cookieconsent.initialise({
+    "palette": {
+      "popup": {
+        "background": "#32465b",
+        "text": "#fdfdfd"
+      },
+      "button": {
+        "background": "#8bed4f",
+        "text": "#fdfdfd"
+      }
+    },
+    "theme": "classic",
+    "position": "bottom-left",
+    "content": {
+      "message": "Diese Seite verwendet Cookies. Für weitere Informationen beachten Sie bitte die",
+      "dismiss": "Verstanden!",
+      "link": "Datenschutzerklärung",
+      "href": "http://dariustehrani.io/impressum#datenschutzerklärung"
+    }
+  })});
+  </script>
 </head>
 
   <body class="{{ page.permalink | slugify }}">
