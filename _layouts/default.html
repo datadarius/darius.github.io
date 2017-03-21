@@ -8,6 +8,8 @@
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
   <meta name="keywords" content="{{ site.keywords }}">
+  <meta name="author" content="{{ site.author }}">
+
   <link href="https://fonts.googleapis.com/css?family=Ubuntu|Roboto:500|Open+Sans" rel="stylesheet">
   {% if page.permalink != "/impressum" %}
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.min.css" integrity="sha256-HlbaSsNFYDtE07AX08zEV5Cz8I8Llplo8EfbEH3ZCAY=" crossorigin="anonymous" />{% endif %}
