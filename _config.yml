@@ -1,7 +1,7 @@
 ---
 title: dariustehrani.io
 email: web@dariustehrani.io
-description: Darius Tehrani - IT-Management & Cloud-Architektur
+description: 'Darius Tehrani - IT-Management & Cloud-Architektur'
 keywords: 'Cloud-Architektur, IT-Strategie, IT-Innovation, Digitale Kollaboration, Agile, Scrum, DevOps, IT-Konzeption, IT-Management, Digitale Transformation, Köln, Cologne, Kubernetes, Docker'
 baseurl: ''
 url: http://dariustehrani.io
@@ -11,6 +11,7 @@ linkedin_username: dtehrani
 markdown: kramdown
 gems:
 - jekyll-feed
+- jekyll-sitemap
 exclude:
 - Gemfile
 - Gemfile.lock

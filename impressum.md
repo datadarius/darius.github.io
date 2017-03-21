@@ -3,6 +3,7 @@ title: dariustehrani.io - Impressum
 layout: imprint
 permalink: "/impressum"
 exclude: 'true'
+sitemap: false
 ---
 ## Impressum
 Angaben gemäß § 5 TMG:
