@@ -22,7 +22,7 @@ sections:
     content: "cloud-architektur.md"
     anchor: "cloud-architektur"
   
-  - menu_title: "Kollaboration"
+  - menu_title: "Agile Kollaboration"
     color: "#1A263E"
     content: "kollaboration.md"
     anchor: "kollaboration"
