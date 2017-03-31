@@ -27,7 +27,7 @@ E-Mail:	dt@dariustehrani.io
 ## Umsatzsteuer-ID
 
 ### Umsatzsteuer-Identifikationsnummer gemäß §27 a Umsatzsteuergesetz:
-beantragt
+DE310913836
 
 ## Angaben zur Berufshaftpflichtversicherung:
 
