@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
-  <link href="https://fonts.googleapis.com/css?family=Ubuntu|Roboto:500|Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu|Roboto:500" rel="stylesheet">
   {% if page.permalink != "/impressum" %}
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.min.css" integrity="sha256-HlbaSsNFYDtE07AX08zEV5Cz8I8Llplo8EfbEH3ZCAY=" crossorigin="anonymous" />{% endif %}
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -17,17 +17,27 @@
   <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
   <link rel="manifest" href="/manifest.json">
   <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <script src="https://use.fontawesome.com/e8f914a8e6.js"></script>
   <meta name="theme-color" content="#ffffff"> 
 </head>
 
-  <body class="{{ page.permalink | slugify }}">
-
+     
+    
+        <body class="{{ page.permalink | slugify }}">
+ <div class="col-md-12">
+   <h3 class="pull-right hidden-xs">
+        {{site.title | escape }}
+       </h3>
+      </div>
+      </br>
 <div class="container imprint">
   <div class="row">
     <div class="col-md-12">
       {{ page.content | markdownify }}
     </div>
+
   </div>
+
 </div>
 
   </body>

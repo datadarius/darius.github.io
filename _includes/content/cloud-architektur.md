@@ -1,5 +1,5 @@
 
-## <i class="fa fa-cloud" aria-hidden="true"></i> Cloud-Architektur
+### <i class="fa fa-cloud" aria-hidden="true"></i> Cloud-Architektur
 Ganzheitliche Konzeption für Cloud-Dienste und -Anwendungen: 
 
 * Analyse und Abbildung digitaler Geschäftsprozesse

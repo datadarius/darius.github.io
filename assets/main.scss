@@ -5,11 +5,11 @@
 
 // Our variables
 $base-font-family-headings: Ubuntu, sans-serif;
-$base-font-family: Roboto, sans-serif;
+$base-font-family: "Roboto", sans-serif;
 $base-font-size:   1.800em;
-$base-font-weight: 500;
+$base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.465;
-$base-line-height: 1.2;
+$base-line-height: 1.0;
 $text-color: #fdfdfd;
 
 $background-color: #fdfdfd;
@@ -80,7 +80,7 @@ footer{
 
 h1, h2, h3, h4, h5, h6 {
    font-family: $base-font-family-headings;
-   font-weight: 700;
+   font-weight: 600;
    text-transform: lowercase;
    color: $text-color;
 }
@@ -126,8 +126,7 @@ body{
 
 ul#menu, footer{
   font-size: $small-font-size;
-  font-family: $base-font-family-headings;
-  text-transform: lowercase;
+  font-family: $base-font-family;
   color: $text-color;
 }
 
