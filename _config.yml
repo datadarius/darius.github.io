@@ -1,8 +1,9 @@
 ---
 title: dariustehrani.io
 email: web@dariustehrani.io
-description: Darius Tehrani - IT Management & Cloud Architektur
-keywords: 'Cloud Architektur, IT Strategie, Digitale Kollaboration, Agile, DevOps, IT Konzeption, IT Management, Digital Transformation, Köln, Cologne, Kubernetes, Docker'
+description: Darius Tehrani - IT-Management & Cloud-Architektur
+keywords: 'Cloud-Architektur, Cloud Architekt, IT-Strategie, IT-Konzeption, Future Workplace, Digital Workplace, IT-Innovation, Digitale Kollaboration, Atlassian, Jira, Confluence, Agile, Scrum, DevOps, Openshift, Continuous Delivery, CI, CD, Build Pipeline, IT-Management, IT-Manager, IT-Aufbau, IT-Compliance, IT-Security, Interim CIO, Technischer Leiter, Agile Coach, Digitale Transformation, Köln, Cologne, Kubernetes, Docker, Freiberufler, Freelanccer, Freier Berater, Interim Manager, Interim-Management'
+author: 'Darius Tehrani - Freiberuflicher Berater'
 baseurl: ''
 url: http://dariustehrani.io
 github_username: datadarius
@@ -11,10 +12,10 @@ linkedin_username: dtehrani
 markdown: kramdown
 gems:
 - jekyll-feed
+- jekyll-sitemap
 exclude:
 - Gemfile
 - Gemfile.lock
 timezone: Europe/Berlin
 google_analytics: UA-91039215-1
 footnote : IT Management & Cloud Architektur
-

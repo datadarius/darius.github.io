@@ -1,5 +1,5 @@
 ---
-title: dariustehrani.io - IT Management & Cloud Architektur
+title: dariustehrani.io - IT-Management & Cloud-Architektur
 layout: index
 permalink: "/"
 exclude: 'true'
@@ -12,20 +12,20 @@ sections:
     content: "intro.md"
     anchor: "intro"
 
-  - menu_title: "IT Management"
+  - menu_title: "IT-Management"
     color: "#1A263E"
     content: "it-management.md"
     anchor: "it-management"
     
-  - menu_title: "Cloud Architektur"
+  - menu_title: "Cloud-Architektur"
     color: "#32465B"
     content: "cloud-architektur.md"
     anchor: "cloud-architektur"
   
-  - menu_title: "Agile Methoden"
+  - menu_title: "Agile Kollaboration"
     color: "#1A263E"
-    content: "agile-methoden.md"
-    anchor: "agile-methoden"
+    content: "kollaboration.md"
+    anchor: "kollaboration"
   
   - menu_title: "Kontakt"
     color: "#182D41"

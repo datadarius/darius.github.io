@@ -1,11 +1,9 @@
 
-## <i class="fa fa-cloud" aria-hidden="true"></i> Cloud Architektur
-IT Konzeption für digitale Geschäftsprozesse:
+## <i class="fa fa-cloud" aria-hidden="true"></i> Cloud-Architektur
+Ganzheitliche Konzeption für Cloud-Dienste und -Anwendungen: 
 
-
-* Architektur für Private und Public Cloud Dienste
-* Konzeption von Web Anwendungen
-* Microservice Architektur
-* Container Technologie
-* Software Defined Data Center
-* Klassische Datacenter Virtualisierung
+* Analyse und Abbildung digitaler Geschäftsprozesse
+* Konzeption von Web-Anwendungen
+* Einführung von Microservices und Container-Technologie
+* Solution-Design für IaaS und PaaS
+* Cloud-Transition

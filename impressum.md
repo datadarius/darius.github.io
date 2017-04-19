@@ -3,13 +3,14 @@ title: dariustehrani.io - Impressum
 layout: imprint
 permalink: "/impressum"
 exclude: 'true'
+sitemap: false
 ---
 ## Impressum
 Angaben gemäß § 5 TMG:
 
 Darius Tehrani
 
-Darius Tehrani - IT Beratung
+IT-Beratung
 
 Freiberuflicher Einzelunternehmer
 
@@ -26,7 +27,7 @@ E-Mail:	dt@dariustehrani.io
 ## Umsatzsteuer-ID
 
 ### Umsatzsteuer-Identifikationsnummer gemäß §27 a Umsatzsteuergesetz:
-beantragt
+DE310913836
 
 ## Angaben zur Berufshaftpflichtversicherung:
 
@@ -41,7 +42,7 @@ Arnulfstraße 31
 Geltungsraum der Versicherung:
 weltweit (exklusive USA und Kanada)
 
-Quelle: https://www.e-recht24.de
+Quelle: <https://www.e-recht24.de>
 
 ## Haftungsausschluss (Disclaimer)
 ### Haftung für Inhalte
@@ -118,4 +119,4 @@ Unsere Webseite nutzt Plugins der von Google betriebenen Seite YouTube. Betreibe
 
 Wenn Sie in Ihrem YouTube-Account eingeloggt sind ermöglichen Sie YouTube, Ihr Surfverhalten direkt Ihrem persönlichen Profil zuzuordnen. Dies können Sie verhindern, indem Sie sich aus Ihrem YouTube-Account ausloggen.
 
-Weitere Informationen zum Umgang von Nutzerdaten finden Sie in der Datenschutzerklärung von YouTube unter: https://www.google.de/intl/de/policies/privacy
+Weitere Informationen zum Umgang von Nutzerdaten finden Sie in der Datenschutzerklärung von YouTube unter: <https://www.google.de/intl/de/policies/privacy>
