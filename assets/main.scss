@@ -65,9 +65,13 @@ footer{
   .container-fluid{
     padding: 0 18px;
   }
-  h5{
+  p{
     padding-top: 18px;
     font-size: $small-font-size;
+    a{
+      display: inline-block;
+      margin-right: 5px;
+    }
   }
 }
 
@@ -95,7 +99,9 @@ body{
   font-size: $base-font-size;
 
 
-  &.impressum{
+  &.impressum,
+  &.datenschutz,
+  &.agb{
     background-color: #32465B;
     font-size: $base-font-size;
 
