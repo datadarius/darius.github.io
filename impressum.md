@@ -74,6 +74,8 @@ Die Nutzung unserer Webseite ist in der Regel ohne Angabe personenbezogener Date
 
 Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich.
 
+<a href="/"><i class="fa fa-caret-left" aria-hidden="true"></i> Zurück zur Startseite</a>
+
 #### Cookies
 Die Internetseiten verwenden teilweise so genannte Cookies. Cookies richten auf Ihrem Rechner keinen Schaden an und enthalten keine Viren. Cookies dienen dazu, unser Angebot nutzerfreundlicher, effektiver und sicherer zu machen. Cookies sind kleine Textdateien, die auf Ihrem Rechner abgelegt werden und die Ihr Browser speichert.
 
