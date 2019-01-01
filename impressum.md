@@ -12,10 +12,6 @@ Angaben gemäß § 5 TMG:
 
 Darius Tehrani
 
-IT-Beratung
-
-Freiberuflicher Einzelunternehmer
-
 Am Alten Stellwerk 40
 
 50733 Köln
@@ -25,24 +21,6 @@ Am Alten Stellwerk 40
 Telefon: +49 170 90 96 148
 
 E-Mail:	dt@dariustehrani.io
-
-### Umsatzsteuer-ID
-
-#### Umsatzsteuer-Identifikationsnummer gemäß §27 a Umsatzsteuergesetz:
-DE310913836
-
-### Angaben zur Berufshaftpflichtversicherung:
-
-Name und Sitz des Versicherers:
-
-Hiscox Europe Underwriting Limited
-
-Arnulfstraße 31
-
-80636 München
-
-Geltungsraum der Versicherung:
-weltweit (exklusive USA und Kanada)
 
 Quelle: <https://www.e-recht24.de>
 
