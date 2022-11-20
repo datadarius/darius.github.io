@@ -2,7 +2,7 @@ source "https://rubygems.org"
 ruby RUBY_VERSION
 
 gem "sinatra-cross_origin", "~> 0.3.1"
-gem "jekyll", "3.4.0"
+gem "jekyll", "3.6.3"
 
 gem "minima", "~> 2.0"
 
